@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+
+
+* {margin: 0
+	padding: 0}
+
+body  {
+	width: 99.5%; 
+	height: 100%; 
+	background-color: #000000;
+	font-family: 'Roboto Mono', monospace;
+	}
+
+header {
+	background-color: #000000;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	font-size: 18;
+	font-weight:580;
+	color:#FFFFFF;
+	z-index: 3;
+	padding-top: 5;
+	/* to bring the layer on top for the arrangement */
+	}
+
+header ul {
+	display: flex;
+	justify-content: center;
+	}
+
+header ul li {
+	list-style-type:none;
+	display: list-item;
+	line-height: 10px;
+	padding-left: 100px;
+	padding-right: 30px;
+	font-size: 18;
+
+	}
+
+header ul li a { /*to remove decoration from the links we need additional styling */
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header ul li a:hover { /*to remove decoration from the links we need additional styling */
+	color: red;
+	text-decoration: none;
+}
+
+#list1 {
+	padding:0;
+	}
+
+#content {width: 100%;
+	height: 750px;
+	position: relative;
+	align-items: center;
+  justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 20px;}
+
+body h1 {
+	font-family: Consolas;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 30pt;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color:yellow;
+	padding-top: 250;
+}
+
+body p {
+	text-align: left;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	margin:0 auto;
+	width: 770px;
+	color:#FFFFFF;
+	padding:15px;
+	line-height: 2;
+	padding-bottom: 50;
+}
+
+footer {
+	background-color: #000000;
+	width: 100%;
+	height: auto;
+	text-align: center;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	margin-top: 20px;
+  	position: relative;
+}
+
+footer .social img {
+	margin-left: 50px;
+	width:32px;
+	height:32px;
+	padding-top: 20px;
+}
+
+#firstsocial {
+	margin-left:-50px;
+}
+
+footer p{
+	padding-top: 20px;
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	bottom: 0;
+}	
